@@ -1,5 +1,4 @@
-# sandbox
-A Minecraft clone but in a bare minimum!
+# sandbox: Brick Edition (v1.0) Latest
 # Instructions
 ## W,A,S,D is to move
 ## Tab is to Toggle fly (if enabled in settings on 1.2)
