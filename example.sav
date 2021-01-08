@@ -1,0 +1,12 @@
+print('World Type:Crux World')
+n = 5  # 1/2 width and height of world
+s = 1  # step size
+y = -5  # initial y height
+self.add_block((-1, -4, -2), BRICK, immediate=False)
+self.add_block((-1, -5, -2), BRICK, immediate=False)
+self.add_block((0, -5, -2), SAND, immediate=False)
+self.add_block((0, -4, -2), SAND, immediate=False)
+for x in xrange(-n, n + 1, s):
+  for z in xrange(-n, n + 1, s):
+# create a layer stone an grass everywhere.
+    self.add_block((x, y-1, z), BARRIER, immediate=False)
